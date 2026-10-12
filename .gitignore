@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Build output (Netlify rebuilds it)
+dist
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+oracleJdk-27/
